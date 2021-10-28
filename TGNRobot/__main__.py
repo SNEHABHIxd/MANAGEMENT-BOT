@@ -74,37 +74,37 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
+𝙷𝙴𝙻𝙻𝙾 , 𝙸'𝙼 𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃..
+`𝙸'𝙼 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙵𝙾𝚁 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿... 𝙽𝙴𝙴𝙳 𝙷𝙴𝙻𝙿https://telegra.ph/file/7146342bf7a1ec22d53cc.jpg` /help
+ [𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃](https://telegra.ph/file/cab6825dea9263d347831.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
+            text="𝙳𝙴𝙺𝙷 𝙼𝚃 𝙶𝚁𝙾𝚄𝙿 𝙼𝙴 𝙳𝙰𝙻 𝙳𝙴 🥺", url="t.me/TGN_Ro_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
+        InlineKeyboardButton(text="𝚁𝙴𝙿𝙾𝚂𝙸𝚃𝙾𝚁𝚈", url=f"https://t.me/SNEHABHI_UPDATES"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=f"https://t.me/SNEHABHI_SERVER"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
+        InlineKeyboardButton(text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/SNEHABHI_UPDATES"),
         InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
+            text="𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/LIVE_LIFE_LIKE"
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙰𝚁𝙴 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴", callback_data="help_back"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
+`𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙰𝚁𝙴 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴..`
+𝙸𝙵 𝙰𝙽𝚈 𝙸𝚂𝚂𝚄𝙴 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝚃𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 [𝚂𝙽𝙴𝙷𝙰𝙱𝙷𝙸 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃](https://telegra.ph/file/7146342bf7a1ec22d53cc.jpg)"""
 
 START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
 
